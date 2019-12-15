@@ -16,6 +16,4 @@ int main(){
     cin>>n;
     search(n);
     return 0;
-
-    
 }
