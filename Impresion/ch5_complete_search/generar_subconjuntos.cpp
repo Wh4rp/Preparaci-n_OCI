@@ -17,6 +17,6 @@ subset.pop_back();
 int main(){
     int n;
     cin>>n;
-    search(1, n+1);
+    search(1, n+1);        // Este código imprime los subconjuntos del conjunto 1 al n
     return 0;
 }

@@ -15,7 +15,6 @@ do {
     cout<<"\n";
     k++;
 // process permutation
-} while (next_permutation(v.begin(),v.end()));
-
-    return 0;
+} while (next_permutation(v.begin(),v.end()));   // next_permutation nos permite pasar através de 
+    return 0;                                    // todas las permutaciones de un conjunto
 }
