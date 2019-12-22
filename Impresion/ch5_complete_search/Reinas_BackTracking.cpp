@@ -26,5 +26,6 @@ int n;
 cin>>n;
 search(0, n);
 cout<<z<<"\n";
+
 return 0;
 }
