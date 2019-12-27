@@ -13,12 +13,10 @@ int main(){
         cin>>v[i];
         s+=v[i];
     }
-    cout<<s<<" \n";
     for(int j=0; j<n; j++){
-        if(s-v[j]%2==0){
+        if((s-v[j])%2==0){
             xd++;
         }
-        cout<<s-v[j]<<"\n";
     }
      cout<<xd<<"\n";
 return 0;
