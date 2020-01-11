@@ -61,7 +61,7 @@ int main(){
 
     adj.assign(10, vector<int>());
     adj[1].push_back(2);
-    adj[2].push_back(0);
+    adj[2].push_back(1);
     adj[0].push_back(1);
     find_cycle();
     

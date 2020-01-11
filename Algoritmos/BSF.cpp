@@ -32,11 +32,10 @@ while (!q.empty()) {
         visitado[u] = true;
         distancia[u] = distancia[s]+1;
         q.push(u);
-        cout<<q.front()<<"\n";
         }
 
 }
-cout<<distancia[1];
+cout<<distancia[2];
 
 return 0;
 }
