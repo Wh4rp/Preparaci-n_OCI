@@ -17,7 +17,8 @@ set<int> a = {2,5,6,8};             // de nuevo otra manera de definir un conjun
 cout << a.size() << "\n"; // 4      // .size() nos da la cantidad de elementos en el conjunto
 for (auto x : a) {                  //  es valido iterar de esta manera, x tomara los 
 cout << x << "\n";                  // valores de cada elemento de t
-}                                    // notese que los elementos salen ordenamos de menor a mayor
+}                                   // notese que los elementos salen ordenamos de menor a 
+                                    //mayor
 
 multiset<int> z;                    // multiset es un tipo de conjunto que puede guardar un 
 z.insert(5);                        // elemento repetidas veces
