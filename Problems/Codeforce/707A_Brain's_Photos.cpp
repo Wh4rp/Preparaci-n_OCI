@@ -12,7 +12,7 @@ int main(){
     c=a*b;
     while(c--){
         cin>>xd;
-        if((xd!='W')&&(xd!='B')){
+        if((xd!='W')&&(xd!='B')&&(xd!='G')){
             cout<<"#Color\n";
             return 0;
         }
